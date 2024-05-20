@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Estilos del buscador de promociones*/
+
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.searchPromotions, .btnClear {
+    display: flex;
+    align-self: flex-end;
+    border: 0.5px solid #070707;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#searchPr {
+    align-self: flex-end;
+    flex: 1;
+    padding: 0.5rem;
+    border: 0.5px black;
+    border-radius: 5px;
+}
+
+.btnSearch {
+    background-image: url('../imagenes/lupa.png');
+    background-size: contain;
+    background-color: white;
+    width:  30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnSearch:hover {
+    background-color: #fae18f;
+}
+
+.btnClear{
+    background-color:rgb(255, 82, 82);
+    border: 0.5px solid #ff0000;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+.trash{
+    width: 15px;
+}
+
+.options, .btnClear{
+    display: flex;
+    gap: 8px;
+    align-self: flex-end;
+    padding-top: 10px;
+}
+
+.textPr h2{
+    padding: 10px;
+    margin:auto;
+    text-align:center;
+    text-transform: uppercase;
+
+}
+
+.textPr p{
+
+    padding: 5px;
+}
+
+
+/*Estilos del contenedor de cards de promociones*/
+.promotionsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titlePr{
+    text-transform: uppercase;
+    background-color: #fad611;
+    color:#000000;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.titlePr p{
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+}
+.cardsContainer img{
+    margin: 50px;
+    max-width: calc(90% - 10px); /*Se le resta 10px para que no haya espacio entre las imágenes*/
+}
+
+
+  /* Estilos para pantallas medianas (entre 576px y 767px) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .searchContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
+  
+  /* Estilos para pantallas pequeñas (menor o igual a 575px) */
+  @media (max-width: 575px) {
+    .searchPromotions {
+        display: flex;
+        align-self: center;
+
+    
+    }
+    
+    #searchPr {
+        align-self: center;
+        flex: 1;
+    }
+
+    .options{
+        align-self: center;
+    }
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promociones</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/promotions.css" />
+  </head>
+  <section id="promotions">
+    <article class="searchContainer">
+      <div class="searchPromotions">
+        <input
+          type="text"
+          id="searchPr"
+          placeholder="Encontrá tu promoción"
+        />
+        <button title="searchButton" class="btnSearch" type="button" ></button>
+      </div>
+      <form class="options">
+        <input type="radio" id="opcion1" name="opciones" value="opcion1">
+        <label for="opcion1">Banco</label><br>
+      
+        <input type="radio" id="opcion2" name="opciones" value="opcion2">
+        <label for="opcion2">Dia</label><br>
+      
+        <input type="radio" id="opcion3" name="opciones" value="opcion3">
+        <label for="opcion3">Ciudad</label><br>
+
+        <input type="radio" id="opcion4" name="opciones" value="opcion4">
+        <label for="opcion3">Socios</label><br>
+      </form>
+      <button class="btnClear" type="button">
+        <img class="trash" src="../imagenes/delete.png" alt="trash">Limpiar filtros</button>
+      <div class="text-pr fuente">
+        <h2>VENIR AL CINE SIEMPRE ES UN GRAN PLAN.</h2>
+        <p>
+          Arma tu experiencia perfecta con increibles descuentos en combos y
+          entradas.
+        </p>
+        <p>¡Te esperamos!</p>
+      </div>
+    </article>
+    <article class="promotionsContainer">
+      <article id="general">
+      <div class="titlePr">
+        <p>promociones</p>
+      </div>
+      <div class="cardsContainer">
+      </div>
+      </article>
+
+      <article id="cineFan">
+        <div class="titlePr">
+          <p>promociones CineFan</p>
+        </div>
+        <div class="cardsContainer">
+        </div>
+      </article>
+    </article>
+  </section>
+  <script src="./Js/promotions.js"></script>
+</html>
