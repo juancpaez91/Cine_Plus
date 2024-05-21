@@ -290,7 +290,7 @@ main {
 
 /*efecto botón */
 
-@keyframes shake-horizontal {
+@-webkit-keyframes shake-horizontal {
     0%,
     100% {
       -webkit-transform: translateX(0);
