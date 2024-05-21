@@ -6,7 +6,7 @@ let allPromotions = []
 
 function loadPromotions() {
 
-    fetch('promotions.json')
+    fetch('data/promotions.json')
         .then(response => response.json())
         .then(data => {
             allPromotions = data.Promotions
