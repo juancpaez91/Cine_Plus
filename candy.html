@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/candy.css">
+    <title>Candy</title>
+</head>
+
+<body>
+    <header class="header-nav" id="header-navbar">
+        <nav class="navbar">
+            <a href="·" class="logo">
+                <img src="./Img/logo.png" alt="logo" class="logo-img">
+            </a>
+            <div class="container-right">
+                <span class="material-symbols-outlined">shopping_cart</span>
+                <div class="cart-container">
+                    <div class="cart-details">
+                        <h2>CANDY ONLINE</h2>
+                        <div class="location-container">
+                            <span class="material-symbols-outlined">location_on</span>
+                            <p class="location-text">CinePlus Caballito</p>
+                        </div>
+                    </div>
+                    <div class="cart-items-wrap">
+                        <ul class="cart-items">
+                            <li class="cart-detail-row">
+                                <div class="cart-detail-remove">
+                                    <a href="#" class="material-symbols-outlined">cancel</a>
+                                </div>
+                                <div class="cart-detail-title">
+                                    <span></span>
+                                </div>
+                                <div class="cart-detail-price">
+                                    <span></span>
+                                </div>
+                                <div class="cart-detail-btns">
+                                    <span class="material-symbols-outlined">remove</span>
+                                    <span class="material-symbols-outlined">add</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cart-payment">
+                            <span class="cart-payment-span">Subtotal</span>
+                            <span class="cart-payment-value">$0</span>
+                            <span class="cart-payment-span">Cargo por servicio Candy</span>
+                            <span class="cart-payment-value">$0</span>
+                            <span class="cart-payment-span-total">TOTAL</span>
+                            <span class="cart-payment-value-total">$0</span>
+                        </div>
+                    </div>
+                    <div class="cart-footer">
+                        <button>VOLVER</button>
+                        <button>SIGUIENTE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="candy-main">
+        <section class="heading">
+            <div class="page-heading">
+                <h3 class="message-greet">HOLA GEORGE</h3>
+                <label for="sucursal-options">Primero selecciona el cine donde retiraras tu pedido:</label>
+            </div>
+            <div class="select-content">
+                <select name="choice" class="select-box">
+                    <option value="" selected>Por favor eliga una sucursal</option>
+                    <option value="Caballito">CinePlus Caballito</option>
+                    <option value="Abasto">CinePlus Abasto</option>
+                    <option value="Palermo">CinePlus Palermo</option>
+                    <option value="Puerto Madero">CinePlus Puerto Madero</option>
+                    <option value="Avellaneda">CinePlus Avellaneda</option>
+                    <option value="Dot">CinePlus Dot</option>
+                    <option value="San justo">CinePlus San justo</option>
+                    <option value="Unicenter">CinePlus Unicenter</option>
+                    <option value="Moron">CinePlus Moron</option>
+                    <option value="Temperlay">CinePlus Temperlay</option>
+                    <option value="Soleil">CinePlus Soleil</option>
+                    <option value="Quilmes">CinePlus Quilmes</option>
+                    <option value="Moreno">CinePlus Moreno</option>
+                    <option value="Tortugas">CinePlus Tortugas</option>
+                    <option value="Rosario">CinePlus Rosario</option>
+                    <option value="Santa fe">CinePlus Sante fe</option>
+                    <option value="Patio olmos">CinePlus Patio Olmos</option>
+                    <option value="Mendoza">CinePlus Mendoza</option>
+                    <option value="Neuquen">CinePlus Neuquen</option>
+                    <option value="Salta">CinePlus Salta</option>
+                    <option value="Nuevo centro">CinePlus Nuevocentro</option>
+                </select>
+                <div class="icon-box">
+                    <span class="material-symbols-outlined">arrow_drop_down</span>
+                </div>
+            </div>
+        </section>
+        <section class="candy-store">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slides">
+                        <div class="carousel-slide">
+                            <img src="./Img/Garfieldpromocion.png" alt="foto prueba">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./Img/Garfieldpromocion.png" alt="foto prueba">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./Img/Garfieldpromocion.png" alt="foto prueba">
+                        </div>
+                    </div>
+                    <button class="carousel-prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="carousel-next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+            <div class="cards-nav">
+                <h2 class="card-label">Coleccionables</h2>
+                <div class="collectible">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="card-label">Comestibles</h2>
+                <div class="groceries">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="card-label">Newlatter</h2>
+                <div class="newlatter">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000067.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./Img/A000000073.png" alt="coleccionable" class="img-card">
+                        </div>
+                        <div class="card-body" id="addcart">
+                            <h5 class="card-title">Combo Duo</h5>
+                            <span class="value">$3.900</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form action="" method="get" class="form-validation">
+            <fieldset>
+                <legend>¿TIENES UN CODIGO PROMOCIONAL?</legend>
+                <input type="text" name="validation-code" id="validation-code">
+                <button type="submit" id="btnvalidation">VALIDAR</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <script src="./Js/candy.js"></script>
+</body>
+
+</html>
