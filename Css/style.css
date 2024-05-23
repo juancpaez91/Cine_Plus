@@ -83,7 +83,7 @@ i {
 .menu2 {
     display: none;
     position: absolute;
-    top: 20px; /* Ajusta la posición del menú según sea necesario */
+    top: 20px;
     left: 0;
     width: 100%;
     padding: 20px;
@@ -91,7 +91,7 @@ i {
     }
   
 .menuMobile:hover .menu2 {
-    display: block; /* Mostrar el menú cuando esté activo */
+    display: block; 
     margin-top: 10px;
     z-index: 999999999999999999;
     }
@@ -111,35 +111,35 @@ i {
     margin-left: 0;
 }
 
-    @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
-        .headerMovies {
-            height: 10%;
+    .headerMovies {
+        height: 10%;
     
         }
     
-        .menuMovies {
-          display: none;
+    .menuMovies {
+        display: none;
         }
     
 
-        .menu-toggle {
-            display: block; /* Mostrar el botón hamburguesa en pantallas pequeñas */
+    .menu-toggle {
+        display: block;
     
         }
     
     
-        #otherSectionsMovies {
-            margin-left: 15px;
-            color: rgb(10, 10, 10);
-            padding: 10px;
-            font-weight: 700;
-            margin-left: 55px;
-            background-color: #e9bc07bb;
-            width: 100%;
-            height: 10%;
-            margin-top: 0px;
-            margin-left: 0;
-        }   
+    #otherSectionsMovies {
+        margin-left: 15px;
+        color: rgb(10, 10, 10);
+        padding: 10px;
+        font-weight: 700;
+        margin-left: 55px;
+        background-color: #e9bc07bb;
+        width: 100%;
+        height: 10%;
+        margin-top: 0px;
+        margin-left: 0;
+    }   
     
     }
