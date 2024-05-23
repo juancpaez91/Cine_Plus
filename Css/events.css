@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Cards */
+
+.containerEvents {
+    display: flex;
+    justify-content: center;
+}
+
+.cardGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.imgCard {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardGroup .card {
+    box-shadow: 0 2px 5px #b9b7b7;
+    max-width: 400px;
+    background-color: #FAC891;
+}
+
+.birthday {
+    background-color: #FAE18F;
+}
+
+.description {
+    margin: 15px 25px;
+    font-size: 1rem;
+}
+
+.conditions {
+    margin: 15px;
+    font-size: 0.8rem;
+}
+
+.cardAnimation:hover {
+    transform: scale(1.06);
+    transition: transform 2s;
+    cursor: pointer;
+}
+
+/* Condiciones */
+
+.listContact {
+    list-style-type: none;
+}
+
+.listContact li {
+    margin-bottom: 8px;
+}
+
+.listContact li a {
+    text-decoration: none;
+    color: #050505;
+    font-size: 1.3rem;
+    /* margin-left: 0; */
+}
+
+.contactGroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 15px;
+}
+
+.info {
+    font-size: 1.2rem;
+    color: #5d5b58;
+}
+
+.terms {
+    margin: 5px 20px;
+}
+
+/* Form */
+
+.backgroundContact {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../Img/group_young_people_cinema.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 100%; */
+    background-attachment: fixed;
+}
+
+.containerRequest h1 {
+    color: #fafafa;
+}
+
+.containerRequest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.request {
+    margin: 20px;
+    box-shadow: 0 1px 3px #b9b7b7;
+    background-color: #FAC891;
+    width: 100%;
+    padding: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formLabel {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.textForm {
+    padding: 10px;
+    border: 1px solid #b9b7b7;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.radioGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radioGroup input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+.btnForm {
+    background-color: #F7A517;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fafafa;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.btnForm:hover {
+    filter: brightness(90%);
+}
+
+.invalid {
+    border: solid 2px red;
+    /* box-shadow: 0 0 10px red; */
+}
+
+.error {
+    color: red;
+    display: block;
+}
+
+.formError {
+    color: red;
+    font-weight: bold;
+}
+
+.formSuccess {
+    color: green;
+    font-weight: bold;
+}
+
+
+/* Media Query */
+
+@media (min-width: 770px) {
+    .cardGroup {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+
+    .contactGroup {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+        margin: 15px;
+        gap: 100px;
+    }
+
+    .request {
+        width: 60%;
+        padding: 20px;
+    }
+}

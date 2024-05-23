@@ -1,5 +1,5 @@
 # Cine_Plus
-Repositorios realizado por Julieta Mezza, Lucila Romandini, George
+Repositorios realizado por Julieta Mezza, Lucila Romandini, George Corro
 
 Nombres de variables: 
 -camelCase
