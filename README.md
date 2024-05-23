@@ -11,7 +11,7 @@ Nombres de archivos:
 Nombre de archivos css:
 -nombre de la seccion .css
 
-En la carpeta Css se alojaran todos los archivos .css
+En la carpeta css se alojaran todos los archivos .css
 
-En la carpeta Js se alojaran todos los archivos .js
+En la carpeta js se alojaran todos los archivos .js
 
