@@ -1,5 +1,9 @@
 # Cine_Plus
-Repositorios realizado por Julieta Mezza, Lucila Romandini, George Corro
+
+Proyecto realizado para el curso Full Stack Node.js, Codo a Codo 2024.
+
+
+Repositorio realizado por Julieta Mezza, Lucila Romandini, George Corro y Juan Carlos Paez
 
 Nombres de variables: 
 -camelCase
