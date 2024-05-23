@@ -1,5 +1,9 @@
 # Cine_Plus
-Repositorios realizado por Julieta Mezza, Lucila Romandini, George Corro
+
+Proyecto realizado para el curso Full Stack Node.js, Codo a Codo 2024.
+
+
+Repositorio realizado por Julieta Mezza, Lucila Romandini, George Corro y Juan Carlos Paez
 
 Nombres de variables: 
 -camelCase
@@ -11,7 +15,7 @@ Nombres de archivos:
 Nombre de archivos css:
 -nombre de la seccion .css
 
-En la carpeta Css se alojaran todos los archivos .css
+En la carpeta css se alojaran todos los archivos .css
 
-En la carpeta Js se alojaran todos los archivos .js
+En la carpeta js se alojaran todos los archivos .js
 

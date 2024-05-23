@@ -1,0 +1,164 @@
+{
+    "Promotions": [
+        {
+            "id": 100,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "comiccon",
+            "banco": "",
+            "requisito": "ninguno",
+            "descripcion": "2x1 en entradas 2D y 3D",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689170/CinePlus-Codo%20a%20Codo/Promociones/782_nsq15x.jpg"
+        },
+        {
+            "id": 101,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "personalpay",
+            "banco": "",
+            "requisito": "ninguno",
+            "descripcion": "2x1 en entradas 2D y 3D + 20% de descuento en combos",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689169/CinePlus-Codo%20a%20Codo/Promociones/6_powluw.png"
+        },
+        {
+            "id": 102,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "american express",
+            "banco": "todos",
+            "requisito": "ninguno",
+            "descripcion": "50% en entradas 2D 3D XD Premium Comfort",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689169/CinePlus-Codo%20a%20Codo/Promociones/2_he1gps.png"
+        },
+        {
+            "id": 103,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "american express",
+            "banco": "todos",
+            "requisito": "ninguno",
+            "descripcion": "50% en entradas 2D 3D XD Premium Comfort",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689169/CinePlus-Codo%20a%20Codo/Promociones/2_he1gps.png"
+        },
+        {
+            "id": 104,
+            "lugar": "CABA",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "pase cultural",
+            "banco": "",
+            "requisito": "ninguno",
+            "descripcion": "precio especial en entradas 2D",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689169/CinePlus-Codo%20a%20Codo/Promociones/17_accdxy.jpg"
+        },
+        {
+            "id": 105,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "puntos serviclub",
+            "banco": "",
+            "requisito": "ninguno",
+            "descripcion": "canjea por combos seleccionados y entradas",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689169/CinePlus-Codo%20a%20Codo/Promociones/14_t1b8xp.png"
+        },
+        {
+            "id": 106,
+            "lugar": "santa fe",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "todos",
+            "banco": "todos",
+            "requisito": "ninguno",
+            "descripcion": "2x1 en entradas 2D",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689168/CinePlus-Codo%20a%20Codo/Promociones/12_vwxq2z.png"
+        },
+        {
+            "id": 107,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "todos",
+            "banco": "cencosud",
+            "requisito": "ninguno",
+            "descripcion": "2x1 en entradas 2D",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689168/CinePlus-Codo%20a%20Codo/Promociones/10_zfl9cc.png"
+        },
+        {
+            "id": 108,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "todos",
+            "banco": "bbva",
+            "requisito": "ninguno",
+            "descripcion": "2x1 en entradas + 20% de descuento en combos",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689168/CinePlus-Codo%20a%20Codo/Promociones/1_amjksn.png"
+        },
+        {
+            "id": 109,
+            "lugar": "todos",
+            "dia": "miercoles",
+            "medioDePago": "todos",
+            "banco": "todos",
+            "requisito": "ninguno",
+            "descripcion": "50% en todas las entradas",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689174/CinePlus-Codo%20a%20Codo/Promociones%20Cines/778_rp7vos.jpg"
+        },
+        {
+            "id": 201,
+            "lugar": "todos",
+            "dia": "Viernes 24-05",
+            "medioDePago": "todos",
+            "requisito": "socios",
+            "banco": "todos",
+            "descripcion": "2x1 Comic con",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689173/CinePlus-Codo%20a%20Codo/Promociones%20CineFan/781_lkgy3u.jpg"
+        },
+        {
+            "id": 202,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "todos",
+            "requisito": "socios",
+            "banco": "todos",
+            "descripcion": "15% en combos seleccionados del candy",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689173/CinePlus-Codo%20a%20Codo/Promociones%20CineFan/39_lgnonl.png"
+        },
+        {
+            "id": 203,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "todos",
+            "requisito": "socios",
+            "banco": "todos",
+            "descripcion": "2x1 en entradas por unica vez",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689172/CinePlus-Codo%20a%20Codo/Promociones%20CineFan/38_bnmxzl.png"
+        },
+        {
+            "id": 204,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes",
+            "medioDePago": "todos",
+            "requisito": "socios",
+            "banco": "todos",
+            "descripcion": "50% en entradas 2D 3D XD Premium Comfort",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689172/CinePlus-Codo%20a%20Codo/Promociones%20CineFan/37_bpeeuw.png"
+        },
+        {
+            "id": 205,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes sabado domingo",
+            "medioDePago": "todos",
+            "requisito": "socios",
+            "banco": "todos",
+            "descripcion": "25% en combos seleccionados del Candy",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689172/CinePlus-Codo%20a%20Codo/Promociones%20CineFan/36_nywuch.png"
+        },
+        {
+            "id": 201,
+            "lugar": "todos",
+            "dia": "lunes martes miercoles jueves viernes",
+            "medioDePago": "todos",
+            "requisito": "socios",
+            "banco": "todos",
+            "descripcion": "25% en entradas d-box 4D Premium",
+            "card": "https://res.cloudinary.com/sapphiredev/image/upload/v1714689171/CinePlus-Codo%20a%20Codo/Promociones%20CineFan/35_rtgytl.png"
+        }
+    ]
+}
