@@ -1,0 +1,255 @@
+/*MAIN*/    
+
+main {
+    background-image: url('https://res.cloudinary.com/dwwizffug/image/upload/v1715084578/gr-stocks-q8P8YoR6erg-unsplash_zaqie0.jpg');
+    background-position: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 5px;
+    
+    
+}
+
+.listOfMovies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #fad611;
+    font-weight: 800;
+    justify-items: center;
+    z-index: 999;
+    align-items: center;
+} 
+
+.item {
+    min-height: 400px;
+    min-width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+       
+}
+
+
+.item1 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179672/tt14230458_b7chab.webp);    
+
+}   
+
+.moreInfoMovies {
+    display: none;
+    align-items: end;
+    padding: 10px;
+}
+
+.moreInfoMovies a {
+    background-color: #fad611;
+    border-radius: 10%;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 10px;
+}
+
+.item1:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+    opacity: 1;
+
+}
+
+.item2:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item3:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item4:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item5:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item6:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item7:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item8:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item9:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.item10:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item11:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999999;
+}
+
+.item12:hover .moreInfoMovies {
+    display: block; /* Mostrar el menú cuando esté activo */
+    margin-top: 10px;
+    z-index: 999;
+}
+.item2 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179891/tt28490044_f7p48b.webp);    
+}
+
+.item3 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179822/tt27503384_cnvawa.webp);    
+}
+
+.item4 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179730/tt15239678_utnlif.webp);    
+}
+
+.item5 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179967/tt16426418_ncgvvh.webp);    
+}
+
+.item6 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715180076/tt1684562_sebdlz.webp);    
+}
+
+.item7 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715180254/tt26676104_aczmlt.webp);    
+}
+
+.item8 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715180253/tt20234774_vzdouz.webp);    
+}
+
+.item9 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179603/tt8038682_sf9a6f.webp);    
+}
+
+.item10 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715180253/tt19381382_dokzau.webp);    
+}
+
+.item11 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715180252/tt17279496_qanegk.webp);    
+}
+
+.item12 {
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715180250/tt2659406_zw0ajf.webp);    
+}
+
+/*Botón entradas*/
+/*efecto */
+
+@-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+
+/*Botón entradas*/
+
+#helpMovies {
+    position: fixed;
+    z-index: 9999999999999;
+    height: 50px;
+    width: 120px;
+    max-height: 50px;
+    max-width: 120px;
+    bottom: 40px;
+    right: 40px; 
+    background-color: #e40505;
+    border-radius: 10%;
+    border: 1px solid;
+    box-shadow: 5px;
+    transition: background-color 0.5s, font-weight 0.5s;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    font-weight: 700;
+}
+
+#helpMovies:hover {
+    background-color: #fad611; 
+    font-weight: 1000;
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        display: none;
+    }
+
+    .item {
+        margin-top: 80px;
+    }
+
+    .listOfMovies {
+        grid-template-columns: 100%;
+        justify-content: auto; 
+    }    
+
+}
+
+
+
+
+
