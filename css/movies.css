@@ -3,7 +3,6 @@
 main {
     background-image: url('https://res.cloudinary.com/dwwizffug/image/upload/v1715084578/gr-stocks-q8P8YoR6erg-unsplash_zaqie0.jpg');
     background-position: cover;
-    padding-bottom: 20px;
 }
 
 .container {
@@ -19,13 +18,11 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px;
     color: #fad611;
     font-weight: 800;
     justify-items: center;
     z-index: 999;
     align-items: center;
-    padding-top: 20px;
 } 
 
 .item {
@@ -33,11 +30,13 @@ main {
     min-width: 300px;
     background-size: cover;
     background-repeat: no-repeat;
+    
+       
 }
 
 
 .item1 {
-    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179672/tt14230458_b7chab.webp);
+    background-image: url(https://res.cloudinary.com/dwwizffug/image/upload/v1715179672/tt14230458_b7chab.webp);    
 
 }   
 
