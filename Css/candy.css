@@ -1,55 +1,62 @@
-body{
+body {
     background-color: #F9F7F7;
 }
 
 
-.logo{
+.logo {
     max-width: 100%;
     height: auto;
 }
 
-.logo-img{
+.logo-img {
     width: 100%;
     height: auto;
     max-width: 160px;
     border-radius: 12px;
 }
 
-.container-right{
+.container-right {
     background-color: white;
     border: 2px solid #ffffff;
     border-radius: 100%;
     padding: 5px;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     font-weight: 500;
 }
 
-.cart-container{
+.cart-container {
     display: none;
 }
 
 
-#candy-main{
+#candy-main {
     margin-top: 0;
     padding: 0;
+    /*
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    */
 }
 
 
 /* heading select  */
 
-.heading{
+.heading {
     background-color: #ffffff;
     padding: 5px;
 }
 
-.page-heading{
+.page-heading {
     margin: 0px 5px;
     padding: 5px;
 }
 
-.select-content{
+.select-content {
     display: flex;
     flex-direction: row;
     max-width: 280px;
@@ -58,16 +65,16 @@ body{
     position: relative;
 }
 
-.select-box{
+.select-box {
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.888); 
+    border: 1px solid rgba(0, 0, 0, 0.888);
     appearance: none;
     padding: 4px;
     width: 100%;
     font-size: 14px;
 }
 
-.select-content .icon-box{
+.select-content .icon-box {
     width: 50px;
     height: 100%;
     position: absolute;
@@ -77,17 +84,17 @@ body{
     justify-content: center;
 }
 
-.icon-box .material-symbols-outlined{
+.icon-box .material-symbols-outlined {
     font-size: 30px;
 }
 
 
-/* candy store carousel*/ 
+/* candy store carousel*/
 
-.candy-store{
+.candy-store {
     margin: 20px;
     padding: 20px;
-    max-width: 1300px;
+    max-width: 100%;
 }
 
 .carousel-container {
@@ -95,29 +102,29 @@ body{
     width: 100%;
     overflow: hidden;
 }
-  
+
 .carousel {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-  
+
 .carousel-slides {
     display: flex;
 }
-  
+
 .carousel-slide {
     flex: 0 0 auto;
     margin-right: 10px;
     transition: transform 0.5s ease;
 }
-  
+
 .carousel-slide img {
     max-width: 100%;
     height: auto;
 }
-  
+
 .carousel-prev,
 .carousel-next {
     position: absolute;
@@ -131,16 +138,17 @@ body{
     padding: 20px;
     cursor: pointer;
 }
-  
+
 .carousel-prev {
     left: 22px;
 }
-  
+
 .carousel-next {
     right: 32px;
 }
 
-.carousel-prev:hover, .carousel-next:hover{
+.carousel-prev:hover,
+.carousel-next:hover {
     background-color: ghostwhite;
     color: black;
 }
@@ -148,42 +156,45 @@ body{
 
 /* card animation y diseño */
 
-.cards-nav{
-    min-width:100%;
+.cards-nav {
+    min-width: 100%;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
     gap: 10px;
     margin-top: 50px;
 }
 
-.collectible,.groceries,.newlatter{
+.collectible,
+.groceries,
+.newlatter {
     min-width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     padding: 20px;
 }
 
-.collectible,.newlatter{
+.collectible,
+.newlatter {
     border: 1px solid gainsboro;
     border-radius: 22px 0px 0px 22px;
     background-color: #ffffff;
 }
 
-.groceries{
+.groceries {
     background-color: #ffffff;
     border-radius: 0px 22px 22px 0px;
 }
 
-.card-label{
+.card-label {
     padding: 5px;
     margin: 5px;
     font-weight: 600;
 }
 
-.card{
+.card {
     display: flex;
     align-items: center;
     border: 2px solid gainsboro;
@@ -191,17 +202,17 @@ body{
     cursor: pointer;
 }
 
-.img-container{
+.img-container {
     width: 50%;
     height: 100%;
 }
 
-.img-card{
+.img-card {
     padding: 5px;
     margin: 5px;
 }
 
-.card-body{
+.card-body {
     width: 50%;
     height: 100%;
     text-align: center;
@@ -210,25 +221,26 @@ body{
     border-radius: 10px;
 }
 
-.card-title,.value{
+.card-title,
+.value {
     font-weight: 600;
     font-size: 16px;
 }
 
-.card-body:hover{
+.card-body:hover {
     background-color: #FAE18F;
     transition: 0.1s ease-in;
 }
 
 /* validacion de codigo */
 
-.form-validation{
+.form-validation {
     display: flex;
     justify-content: center;
-    background-color: #ffff ;
+    background-color: #ffff;
 }
 
-.form-validation > fieldset{
+.form-validation>fieldset {
     font-weight: 600;
     background-color: #F9F7F7;
     text-align: center;
@@ -238,12 +250,12 @@ body{
     margin: 50px;
 }
 
-#validation-code{
+#validation-code {
     width: 70%;
     padding: 8px 30px;
 }
 
-#btnvalidation{
+#btnvalidation {
     padding: 9px;
     max-width: 100%;
     background-color: #fad611;
@@ -251,6 +263,97 @@ body{
     cursor: pointer;
 }
 
-#validation-code:focus{
+#validation-code:focus {
     outline: none;
 }
+
+/*   responsive  */
+
+
+@media only screen and (max-width: 600px) {
+    .carousel-container{
+        display: none;
+    }
+
+    .candy-store{
+        margin: 0px;
+        padding: 10px;
+    }
+
+
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .form-validation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btnvalidation{
+        margin-top: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }    
+}
+
+
+@media only screen and (min-width: 748px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    .carousel-prev {
+        left: 70px;
+    }
+
+    .carousel-next{
+        right:80px;
+    }
+
+}
+
+
