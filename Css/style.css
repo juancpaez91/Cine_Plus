@@ -16,12 +16,10 @@
     background-color: #e9bc07bb;
     min-height: 5%;
     margin-top: 0px;
-     
 }
 
 .logoMovies {
-    max-width: 25%;
-    min-width: 25%;    
+width: 200px;    
 }
 
 .menuMovies li{
@@ -57,10 +55,8 @@ i {
 .menu2 {
     display: none; 
     list-style: none;
-    
-  }
-  
-  
+}
+
 .menu-toggle {
     cursor: pointer;
     display: none; 
@@ -83,9 +79,9 @@ i {
     position: absolute;
     top: 20px;
     left: 0;
-    width: 100%;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #e9bc07bb;
     }
   
 .menuMobile:hover .menu2 {
@@ -108,6 +104,140 @@ i {
     margin-top: 0px;
     margin-left: 0;
 }
+@media screen and (max-width: 800px) {
+
+    .headerMovies {
+        height: 10%;
+    
+        }
+    
+    .menuMovies {
+        display: none;
+        }
+    
+
+    .menu-toggle {
+        display: block;
+        
+        }
+    }
+/* Estilos footer */
+
+#otherSectionsMovies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center ;
+    color: rgb(10, 10, 10);
+    padding: 30px;
+    font-weight: 700;
+    margin-left: 55px;
+    background-color: #e9bc07bb;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  
+  .mapa iframe {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .contactList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .contactList li {
+    list-style: none;
+    margin: 10px 0;
+  }
+
+
+/* Estilos para dispositivos medianos y grandes */
+
+/* Estilos para dispositivos medianos */
+@media (max-width: 768px) {
+    .searchPromotions {
+        display: flex;
+        align-self: center;
+    }
+    
+    #searchPr {
+        align-self: center;
+        flex: 1;
+    }
+
+    .options{
+        align-self: center;
+    }
+
+    .searchContainer {
+        flex-direction: column;
+        align-items: center;
+      }
+        .mapa iframe {
+          width: 100%;
+          height: 200px;
+        }
+        
+        .contactList {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align:start;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+        }
+        
+        .contactList li {
+          list-style: none;
+          margin: 10px 0;
+          align-content: flex-start;
+        }
+      }
+      
+/* Estilos para dispositivos grandes */
+      @media (min-width: 992px) {
+        #otherSectionsMovies {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left;
+            align-items: flex-start;        
+        }
+        
+        .mapa, .containerContact {
+          flex: 1;
+          margin:  10px;
+        }
+
+        .mapa iframe {
+          height: 300px;
+        }
+      
+        .contactList {
+            padding-left: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align:start;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+        }
+
+        .contactList li {
+          margin: 15px 0;
+        }
+    }
 
 /*Botón entradas*/
 
@@ -150,11 +280,11 @@ i {
     width: 120px;
     max-height: 50px;
     max-width: 120px;
-    bottom: 40px;
-    right: 40px; 
-    background-color: #e40505;
+    bottom: 200px;
+    right: 20px; 
+    background-color: #fb2c2c;
     border-radius: 10%;
-    border: 1px solid;
+    border: 1px solid #ffffff;
     box-shadow: 5px;
     transition: background-color 0.5s, font-weight 0.5s;
     animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
@@ -166,37 +296,3 @@ i {
     background-color: #fad611; 
     font-weight: 1000;
 }
-
-
-@media screen and (max-width: 800px) {
-
-    .headerMovies {
-        height: 10%;
-    
-        }
-    
-    .menuMovies {
-        display: none;
-        }
-    
-
-    .menu-toggle {
-        display: block;
-    
-        }
-    
-    
-    #otherSectionsMovies {
-        margin-left: 15px;
-        color: rgb(10, 10, 10);
-        padding: 10px;
-        font-weight: 700;
-        margin-left: 55px;
-        background-color: #e9bc07bb;
-        width: 100%;
-        height: 10%;
-        margin-top: 0px;
-        margin-left: 0;
-    }   
-    
-    }
