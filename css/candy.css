@@ -254,3 +254,93 @@ body{
 #validation-code:focus{
     outline: none;
 }
+
+
+/*   responsive  */
+
+@media only screen and (max-width: 600px) {
+    .carousel-container{
+        display: none;
+    }
+
+    .candy-store{
+        margin: 0px;
+        padding: 10px;
+    }
+
+
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .form-validation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btnvalidation{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }    
+}
+
+
+@media only screen and (min-width: 748px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .collectible,.groceries,.newlatter{
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    .carousel-prev {
+        left: 70px;
+    }
+
+    .carousel-next{
+        right:80px;
+    }
+
+}
+
+
